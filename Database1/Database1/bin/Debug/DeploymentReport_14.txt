@@ -1,0 +1,27 @@
+﻿** Выделение
+     Таблицы, которые будут перестроены
+       Нет
+     Кластеризованные индексы, которые будут удалены
+       Нет
+     Кластеризованные индексы, которые будут созданы
+       Нет
+     Возможные проблемы, связанные с данными
+       Нет
+
+** Действия пользователя
+     Создать
+       [dbo].[ItemTableType] (Определяемый пользователем тип таблиц)
+       [dbo].[Item] (Таблица)
+       [dbo].[ItemToStorage] (Таблица)
+       [dbo].[Manufacturer] (Таблица)
+       [dbo].[Storage] (Таблица)
+       [dbo].[FK_Item_ToManufacturer] (Внешний ключ)
+       [dbo].[FK_ItemToStorage_ToItem] (Внешний ключ)
+       [dbo].[FK_ItemToStorage_ToStorage] (Внешний ключ)
+       [dbo].[ShowItemInStorage] (Представление)
+       [dbo].[AddItemToStorage] (Процедура)
+       [dbo].[CreateManufacturerAndItems] (Процедура)
+       [dbo].[CreateStorage] (Процедура)
+       [dbo].[DeleteItem] (Процедура)
+
+** Корректирующие действия
